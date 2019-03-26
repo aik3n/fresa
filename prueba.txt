@@ -4,3 +4,8 @@ a ver, esto lo cambio
 
 quillo
 riass
+
+git add .
+git commit -m "v2"
+git push
+
