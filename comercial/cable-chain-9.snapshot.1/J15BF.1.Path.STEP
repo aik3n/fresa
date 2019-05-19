@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('J15BF.1.Path.STEP',
+    '2018-06-28T15:32:13',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2017',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#2 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #5, 'design' ) ;
+#3 = PRODUCT_CONTEXT ( 'NONE', #1, 'mechanical' ) ;
+#4 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #1 ) ;
+#5 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#6 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #5 ) ;
+#7 = PRODUCT ( 'J15BF.1.Path', 'J15BF.1.Path', '', ( #3 ) ) ;
+#8 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #11 ) ;
+#9 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #7 ) ) ;
+#10 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #7, .NOT_KNOWN. ) ;
+#11 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #10, #2 ) ;
+ENDSEC;
+END-ISO-10303-21;
